@@ -1,0 +1,74 @@
+.login{
+    padding-top: 80px;
+}
+
+.login-container{
+    padding: 20px 0px 20px 35px;
+    border: 1px solid rgba(0, 0, 0, 0.705);
+    width: 30%;
+    margin: auto;
+    /* text-align: center; */
+    font-family: "Nunito Sans", sans-serif;
+    outline: none;
+    border-radius: 6px;
+    background-color: #EDE8E8;
+}
+
+.login-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+    
+}
+.login-field input{
+    width: 300px;
+    border: 1px solid black;
+    outline: none;
+    height: 30px;   
+    padding-left: 10px;   
+    font-size: 14px;
+    font-family: "Nunito Sans", sans-serif;
+    
+}
+
+.login-container button{
+    width: 300px;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    background-color: #FB641B;
+    outline: none;
+    border: 1px solid #FB641B;
+    padding: 2px 15px;
+    cursor: pointer;
+    font-family: "Nunito Sans", sans-serif;
+
+}
+.login-container button:hover{
+    background-color: #f27a3e;
+}
+
+.login-signup{
+    padding: 20px 0px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.login-signup span{
+    color: #FB641B;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login-term{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    color: rgba(0, 0, 0, 0.792);
+    
+}

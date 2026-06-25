@@ -1,0 +1,31 @@
+.fiftyoff{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 10px; */
+    font-family: "Nunito Sans", sans-serif;
+    /* padding-bottom: 60px ; */
+
+}
+.off{
+     width: 84%;
+    /* max-height: 100% ; */
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    padding: 20px 0px;  
+}
+
+.fiftyoff h1 {
+    font-family: "Nunito Sans", sans-serif;
+    color: rgba(0, 0, 0, 0.705);
+    font-weight: 600;
+}
+
+.fiftyoff hr{
+    background-color: black;
+    width: 450px;
+    height: 2px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,56 @@
+.footer{
+    margin-top: 80px;
+    background-color: rgb(237, 232, 232);
+    width: 100%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.705);
+    font-family: "Nunito Sans", sans-serif;
+    
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 25px 0px;
+    
+}
+.footer-logo p{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.footer-link{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    gap: 40px;
+    font-weight: 500;
+    
+}
+.footer hr{
+    width: 600px;
+    margin: auto;
+    height: 2px;
+    background-color: black;
+
+}
+
+.footer-icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;    
+    padding: 25px 0px;
+
+}
+
+.footer h3{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.705);
+    font-weight: 500;
+}

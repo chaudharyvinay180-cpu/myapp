@@ -1,0 +1,36 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); */
+
+
+.new_arrival{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 10px; */
+    font-family: "Nunito Sans", sans-serif;
+    padding-bottom: 30px ;
+}
+
+.new_item{
+    width: 84%;
+    /* max-height: 100% ; */
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.new_arrival h1{
+    /* color: black; */
+    color: rgba(0, 0, 0, 0.705);
+    font-weight: 600;
+
+
+}
+.new_arrival hr {
+    background-color: black;
+    width: 200px;
+    height: 2px;
+    margin-bottom: 10px;
+}
