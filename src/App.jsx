@@ -13,9 +13,10 @@ function App() {
   return (
     <div>
       
-      <BrowserRouter>
+      <BrowserRouter basename="/myapp">
       <Navbar/>
       <Routes>
+        <Route path='/' element={<Home></Home>} ></Route>
         <Route path='/Home' element={<Home></Home>} ></Route>
         <Route path='/Collections' element={<Collections></Collections>} ></Route>      
         <Route path='/About' element={<About></About>} ></Route>
