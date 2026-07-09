@@ -5,27 +5,39 @@
     /* gap: 10px; */
     font-family: "Nunito Sans", sans-serif;
     /* padding-bottom: 60px ; */
-
+    background: #f5cb78;
+    background: linear-gradient(180deg,rgba(255, 190, 48, 1) 58%, rgb(255, 201, 109) 90%);
+    border-radius: 15px;
+    width: 84%;
+    margin: auto;
+    margin-top: 60px;   
+    padding-bottom: 30px;
 }
 .off{
-     width: 84%;
+     width: 94%;
     /* max-height: 100% ; */
     display: flex;
     flex-wrap: wrap;
     /* border: 1px solid black; */
     justify-content: space-between;
-    padding: 20px 0px;  
+    border-radius: 15px;
+    background-color: white;
+    padding: 12px 10px 0px 10px;
+
 }
 
 .fiftyoff h1 {
     font-family: "Nunito Sans", sans-serif;
-    color: rgba(0, 0, 0, 0.705);
-    font-weight: 600;
+    color: white;
+    font-weight: 700;
+    padding-top: 10px;
 }
 
 .fiftyoff hr{
-    background-color: black;
+    background-color: white;
     width: 450px;
     height: 2px;
     margin-bottom: 20px;
+    border: none;
+    outline: none;
 }

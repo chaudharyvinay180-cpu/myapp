@@ -63,8 +63,9 @@
 }
 
 .collection-head{
-    width: 77%;
+    width: 79%;
     /* border: 1px solid black; */
+    /* padding: 0px 9px; */
 }
 .collection-name{
     display: flex;
@@ -96,5 +97,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     /* border: 1px solid yellow; */
+    background-color: white;
+
     
 }

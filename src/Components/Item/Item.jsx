@@ -1,11 +1,12 @@
 import React from "react";
 import "./Item.css"
+import { Link } from "react-router-dom";
 
 
 function Item(props){
 
     return(
-        <div className="item">
+        <Link to={`/Product/${props.id}`} className="item">
             <img src={props.img} alt="" />
             <p>{props.name}</p>
             <div className="item-price">
@@ -18,7 +19,7 @@ function Item(props){
             </div>
 
 
-        </div>
+        </Link>
     )
 }
 

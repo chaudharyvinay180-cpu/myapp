@@ -1,0 +1,120 @@
+.descriptionbox{
+    border-bottom: 1px solid #808080;
+    margin-bottom: 40px;
+}
+.description-box-nav{
+    display: flex;
+    gap: 10px;
+    padding: 10px 0px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 3px;
+    
+}
+.description-content {
+    font-family: "Nunito Sans", sans-serif;
+
+}
+.description-nav{
+    cursor: pointer;
+    font-family: "Nunito Sans", sans-serif;
+    border-right: 1px solid rgba(0, 0, 0, 0.708);
+    padding-right: 10px;
+}
+
+.description-content h1 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 26px ;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    
+    
+}   
+.description-content p {
+    font-size: 15px;
+    padding-left: 2px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}   
+.description-content h4 {
+    padding-left: 2px;
+    padding-top: 10px;  
+
+}
+.review-nav{
+    cursor: pointer;
+}
+
+.rating-form{
+    margin-bottom: 40px;
+    border: 1px solid #a0a1a1cf;
+    padding: 25px 22px;
+    background-color: #ededed4c;
+}
+
+.review-details{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.review-name{
+    /* border: 1px solid black; */
+    width: 500px;
+}
+
+.input-name{
+    width: 500px;
+    padding: 12px 10px;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 0%;
+    border: 1px solid #a0a1a1cf;
+    font-family: "Nunito Sans", sans-serif;
+
+}
+.rating-form h2{
+    color: rgba(0, 0, 0, 0.815);
+    font-weight: 400;
+    font-size: 22px;
+}
+.rating-form p{
+    padding-top: 10px;
+}
+
+.rating-form h3{
+    color: rgba(0, 0, 0, 0.815);
+    font-weight: 400;
+    font-size: 19px;
+    padding-bottom: 5px;
+}
+.textarea{
+    width: 100%;
+    padding: 12px 10px;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 0%;
+    border: 1px solid #a0a1a1cf;
+}
+.rating-form h4{
+    color: rgba(0, 0, 0, 0.815);
+    font-weight: 400;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.review-form-btn{
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    font-family: "Nunito Sans", sans-serif;
+    cursor: pointer;
+    color: white;
+    background-color: #FB641B;
+
+}
+.review-form-btn:hover{
+    background-color: #f97837;
+
+}

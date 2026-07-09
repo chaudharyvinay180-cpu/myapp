@@ -8,12 +8,13 @@ import Locations from './Pages/Locations'
 import Contact from './Pages/Contact'
 import Footer from './Components/Footer/Footer'
 import Login from './Pages/Login'
+import Productdetails from './Components/Productdetails/Productdetails'
 
 function App() {
   return (
     <div>
       
-      <BrowserRouter basename="/myapp">
+      <BrowserRouter >
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home></Home>} ></Route>
@@ -23,6 +24,8 @@ function App() {
         <Route path='/Locations' element={<Locations></Locations>} ></Route>  
         <Route path='/Contact' element={<Contact></Contact>} ></Route>
         <Route path='/Login' element={<Login></Login>} ></Route>
+        <Route path='/Product/:id' element={<Productdetails></Productdetails>}></Route>
+        
       </Routes>
       <Footer></Footer>
       </BrowserRouter>

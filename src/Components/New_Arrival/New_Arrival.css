@@ -2,6 +2,7 @@
 
 
 .new_arrival{
+    margin: auto;
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -9,28 +10,38 @@
     /* gap: 10px; */
     font-family: "Nunito Sans", sans-serif;
     padding-bottom: 30px ;
+    border-radius: 15px;
+    background: #f5cb78;
+    background: linear-gradient(180deg,rgba(255, 190, 48, 1) 58%, rgb(255, 201, 109) 90%);
+    width: 84%;
 }
 
 .new_item{
-    width: 84%;
+    width: 94%;
     /* max-height: 100% ; */
+    border-radius: 15px;
     display: flex;
     flex-wrap: wrap;
     /* border: 1px solid black; */
     justify-content: space-between;
-    padding: 20px 0px;
+    padding: 12px 10px 10px 10px;
+    background-color: white;
+  
 }
 
 .new_arrival h1{
     /* color: black; */
-    color: rgba(0, 0, 0, 0.705);
-    font-weight: 600;
-
+    color: white;
+    font-weight: 700;
+    padding-top: 10px;
 
 }
 .new_arrival hr {
-    background-color: black;
+    background-color: white;
+    border-color: white;
     width: 200px;
     height: 2px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
 }

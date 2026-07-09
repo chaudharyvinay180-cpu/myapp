@@ -21,7 +21,7 @@ function Collections(props) {
                         <p>FILTERS</p>
                        <div className="filter-category">
                          <p>CATEGORIES</p>
-                        <li><input type="checkbox" name="Cloths" id="" /> <label htmlFor="">CLOTHS</label></li>
+                        <li><input type="checkbox" name="Clothing" id="" /> <label htmlFor="">CLOTHING</label></li>
                         <li><input type="checkbox" name="Electronics" id="" /> <label htmlFor="">ELECTRONICS</label></li>
                         <li><input type="checkbox" name="Furnitures" id="" /> <label htmlFor="">FURNITURES</label></li>
                         <li><input type="checkbox" name="Sports" id="" /> <label htmlFor="">SPORTS</label></li>
@@ -52,11 +52,7 @@ function Collections(props) {
                 </div>
             </div>
         </div>
-        /* <div className="new_item">
-                {Allproducts.map((item,i)=>{
-                    return <Item key={i} id={item.id} name={item.name} img={item.img} new_price={item.new_price} old_price={item.old_price} />
-                })}
-            // </div> */
+       
     )
 }
 
