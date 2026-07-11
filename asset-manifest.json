@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myapp/static/css/main.2fbc61aa.css",
-    "main.js": "/myapp/static/js/main.63061e4a.js",
+    "main.css": "/myapp/static/css/main.1652a0ee.css",
+    "main.js": "/myapp/static/js/main.76add107.js",
     "static/js/453.5431b0dd.chunk.js": "/myapp/static/js/453.5431b0dd.chunk.js",
     "static/media/Tyrion.png": "/myapp/static/media/Tyrion.8013a851b621e66f577f.png",
     "static/media/Jon.jpg": "/myapp/static/media/Jon.76f7f91ab654576e1546.jpg",
@@ -65,12 +65,12 @@
     "static/media/quality.webp": "/myapp/static/media/quality.6c7597eba12b487174f4.webp",
     "static/media/payment.webp": "/myapp/static/media/payment.14287a497b8461058b5d.webp",
     "index.html": "/myapp/index.html",
-    "main.2fbc61aa.css.map": "/myapp/static/css/main.2fbc61aa.css.map",
-    "main.63061e4a.js.map": "/myapp/static/js/main.63061e4a.js.map",
+    "main.1652a0ee.css.map": "/myapp/static/css/main.1652a0ee.css.map",
+    "main.76add107.js.map": "/myapp/static/js/main.76add107.js.map",
     "453.5431b0dd.chunk.js.map": "/myapp/static/js/453.5431b0dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fbc61aa.css",
-    "static/js/main.63061e4a.js"
+    "static/css/main.1652a0ee.css",
+    "static/js/main.76add107.js"
   ]
 }
