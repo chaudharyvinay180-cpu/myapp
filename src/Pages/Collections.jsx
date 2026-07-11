@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Item from "../Components/Item/Item";
 import Allproducts from "../Assets/Allproducts";
 import "./CSS/Collections.css"
-import collection from "../Assets/collection.jpg"
+import exclusive from "../Assets/exclusive.jpg"
 import { ShopContext } from "../Components/Context/ShopContext";
 
 function Collections(props) {
@@ -13,7 +13,7 @@ function Collections(props) {
 
         <div className="collections">
             <div className="banner">
-                <img src={collection} alt="" width="100%" height="300px" />
+                <img src={exclusive} alt="" width="100%" height="300px" />
             </div>
             <div className="collection-middle">
                 <div className="collection-filter">

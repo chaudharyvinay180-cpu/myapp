@@ -1,0 +1,137 @@
+
+.contactus{
+    width: 84%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../Assets/contactus.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+    box-shadow: 0px 0px 3px rgba(140, 136, 136, 0.8);
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.contactus h1{
+    font-size: 75px;
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);    
+}
+.contact-help{
+    width: 84%;
+    margin: auto;
+    text-align: center;
+}
+.contact-help h4 {
+   font-size: 18px;
+}
+
+.contact-help h2{
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.query-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+}
+.query-box-card{
+    width: 250px;
+    background-color: #F5F7F9;
+    box-shadow: 0px 0px 3px rgba(140, 136, 136, 0.8);
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+
+.query-box-card h3{
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+.query-box-card p{
+    color: #333333;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+.query-box-card span{
+    color: #FB641B;
+    font-weight: 700;
+}
+
+.contact-tellus{
+    width: 84%;
+    margin: auto;
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+.contact-stranger{
+    width: 45%;
+    padding-top: 40px;
+}
+.contact-stranger p {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact-stranger h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.contact-stranger span{
+    color: #333333;
+}
+.contact-form{
+    width: 50%;
+    background-color: #F5F7F9;
+    /* text-align: center; */
+    padding: 40px 40px ;
+}
+
+.contact-form input{
+    width: 450px;
+    padding: 10px 10px;
+    font-family: "Nunito Sans", sans-serif;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: 1px solid grey;
+    
+}
+.contact-form input:focus{
+    outline: 1px solid #FB641B;
+}
+.contact-form textarea{
+    width: 450px;
+    padding: 10px 10px;
+    height: 70px;
+    font-family: "Nunito Sans", sans-serif;
+    border-radius: 5px;
+
+}
+.contact-form textarea:focus{
+    outline: 1px solid #FB641B;
+}
+.contact-form button{
+    text-align: start;
+    margin-top: 30px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: #FB641B;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.contact-form button:hover{
+    background-color: #ff7f3e;
+}

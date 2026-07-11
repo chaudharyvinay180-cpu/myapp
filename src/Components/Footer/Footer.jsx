@@ -4,6 +4,7 @@ import logo from "../../Assets/logo.png"
 import instagram from "../../Assets/instagram.png"
 import whatsapp from "../../Assets/whatsapp.png"
 import facebook from "../../Assets/facebook.png"
+import { Link } from "react-router-dom";
 
 function Footer(){
 
@@ -15,7 +16,7 @@ function Footer(){
             </div>
             <div className="footer-link">
                 <li>Locations</li>
-                <li>About</li>
+                <Link to="/About"><li>About</li></Link>
                 <li>Contact</li>
                 <li>FAQs</li>
                 <li>Policies</li>
