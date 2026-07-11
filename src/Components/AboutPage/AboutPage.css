@@ -32,10 +32,15 @@ body{
     margin: auto;
     box-shadow: 2px 2px 8px rgba(140, 136, 136, 0.8);
     margin-bottom: 50px;
+    border-radius: 5px;
 }
 
 .who-we-are-img {
     width: 50%;
+    border-top-right-radius: 5px;
+}
+.who-we-are-img img{
+    border-top-right-radius: 5px;
 }
 
 .who-we-are {
@@ -44,7 +49,7 @@ body{
     /* border: 1px solid black; */
     background-color: #F5F7F9;
     font-family: "Nunito Sans", sans-serif;
-
+    border-radius: 5px;
 }
 
 .who-we-are hr {

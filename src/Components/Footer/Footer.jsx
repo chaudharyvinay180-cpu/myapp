@@ -15,9 +15,9 @@ function Footer(){
                 <p>Shrinay</p>
             </div>
             <div className="footer-link">
-                <li>Locations</li>
+                <Link to="/Locations" ><li>Locations</li></Link>
                 <Link to="/About"><li>About</li></Link>
-                <li>Contact</li>
+                <Link to="/Contact"><li>Contact</li></Link>
                 <li>FAQs</li>
                 <li>Policies</li>
             </div>

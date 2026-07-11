@@ -81,18 +81,21 @@
 }
 
 .contact-stranger h2{
-    font-size: 35px;
-    margin-bottom: 10px;
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
 .contact-stranger span{
     color: #333333;
+    line-height: 25px;
 }
 .contact-form{
     width: 50%;
     background-color: #F5F7F9;
     /* text-align: center; */
     padding: 40px 40px ;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(237, 226, 226, 0.8);
 }
 
 .contact-form input{

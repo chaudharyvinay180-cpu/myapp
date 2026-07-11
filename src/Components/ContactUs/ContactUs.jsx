@@ -47,7 +47,7 @@ function ContactUs() {
             <div className="contact-tellus">
                 <div className="contact-stranger">
                     <p>Dont be a Stranger!</p>
-                    <h2>Tell us your thoughts</h2>
+                    <h2>Tell us your thoughts.</h2>
                     <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error dolorum eaque earum? Blanditiis deleniti in eius quo reiciendis sed laudantium.</span>
                 </div>
                 <div className="contact-form">
