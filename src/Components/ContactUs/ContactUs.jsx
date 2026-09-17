@@ -1,6 +1,6 @@
 import React from "react";
 import "./ContactUs.css"
-import contactus from "../../Assets/contactus.jpg"
+// import contactus from "../../Assets/contactus.jpg"
 
 function ContactUs() {
 

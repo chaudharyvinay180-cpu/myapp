@@ -11,19 +11,19 @@ function Description() {
         <>
             <div className="div">
                 {CardData.map((item, i) => {
-                    if (item.id == id) {
+                    if (item.id === id) {
                         return (
                             <>
                                 <div className="descriptionbox">
                                     <div className="description-box-nav">
-                                        <div className={`description-nav ${setActiveTab === "description" ? "active" : ""
+                                        <div className={`description-nav ${activeTab === "description" ? "active" : ""
                                             }`}
                                             onClick={() => setActiveTab("description")}
                                         >
                                             Description
                                         </div>
 
-                                        <div className={`review-nav ${setActiveTab === "review" ? "active" : ""
+                                        <div className={`review-nav ${activeTab === "review" ? "active" : ""
                                             }`}
                                             onClick={() => setActiveTab("review")}
                                         >
@@ -64,6 +64,7 @@ function Description() {
                             </>
                         )
                     }
+                    return null;
                 })}
             </div>
 

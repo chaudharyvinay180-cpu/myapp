@@ -1,7 +1,7 @@
 import React from "react";
 import "./Productdetails.css"
 import { useParams } from "react-router-dom";
-import Allproducts from "../../Assets/Allproducts";
+// import Allproducts from "../../Assets/Allproducts";
 import CartProducts from "../../Assets/CartProducts";
 import Description from "../Description/Description";
 import RelatedProducts from "../RelatedProducts/RelatedProducts";
@@ -16,7 +16,7 @@ function Productdetails() {
         <>
             <div className="div">
                 {CartData.map((item, i) => {
-                    if (item.id == id) {
+                    if (item.id === id) {
                         return (
                             <>
                                 <div className="productdetails">
@@ -62,7 +62,7 @@ function Productdetails() {
                         )
 
                     }
-
+                    return null;
                 })}
             </div>
 

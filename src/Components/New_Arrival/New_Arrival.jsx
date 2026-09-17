@@ -2,7 +2,7 @@ import React from "react";
 import "./New_Arrival.css"
 import Item from "../Item/Item";
 import Data from "../../Assets/Data";
-function New_Arrival(){
+function NewArrival(){
 
     return(
         <div className="new_arrival">
@@ -17,4 +17,4 @@ function New_Arrival(){
     )
 }
 
-export default New_Arrival
+export default NewArrival

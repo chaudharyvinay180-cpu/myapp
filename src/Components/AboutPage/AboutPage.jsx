@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutPage.css"
-import About from "../../Assets/About.jpeg"
+// import About from "../../Assets/About.jpeg"
 import who from "../../Assets/who.jpg"
 import Vinay from "../../Assets/Vinay.png"
 import Shristy from "../../Assets/Shristy.avif"

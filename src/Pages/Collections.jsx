@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import Item from "../Components/Item/Item";
-import Allproducts from "../Assets/Allproducts";
+// import Allproducts from "../Assets/Allproducts";
 import "./CSS/Collections.css"
 import exclusive from "../Assets/exclusive.jpg"
 import { ShopContext } from "../Components/Context/ShopContext";

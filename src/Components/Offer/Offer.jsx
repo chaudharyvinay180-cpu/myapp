@@ -3,7 +3,7 @@ import "./Offer.css"
 import Home1 from "../../Assets/Home1.jpg"
 import { Link } from "react-router-dom";
 
-import Collections from "../../Pages/Collections";
+// import Collections from "../../Pages/Collections";
 
 function Offer(){
     const [offer, setoffer] = useState("Collections")
