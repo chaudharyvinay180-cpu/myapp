@@ -11,7 +11,7 @@ function Description() {
         <>
             <div className="div">
                 {CardData.map((item, i) => {
-                    if (item.id === id) {
+                    if (item.id == id) {
                         return (
                             <>
                                 <div className="descriptionbox">
