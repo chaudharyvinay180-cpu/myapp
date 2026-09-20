@@ -112,7 +112,7 @@ function AboutPage() {
                     <div className="benefit-card-img">
                         <img src={offer} alt="" />
                     </div>
-                    <h2>Best Offers</h2>
+                    <h2>Best OFFERS</h2>
                     <p>It elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                 </div>
                 <div className="benefit-card">
